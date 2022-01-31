@@ -1,51 +1,45 @@
-"""
+'''
+lab 2
+'''
 
-This is a regional comment
+#3.1
+my_name = "Tom"
 
-Lec2
+print(my_name)
 
-"""
+#3.2
+my_id = 123
 
-#print('hello World') #This is a comment
+print(my_id)
 
-#print(type(123))
+#3.3
 
-#print(type(123.))
+#_123=my_id
+my_id = your_id=123
+print(my_id)
+print(your_id)
 
-#print(type("123"))
+3.4
 
-#print("hello world")
-#print('hello world')
+my_id_str = '123'
+print(type(my_id_str))
+print(my_id_str)
 
-#print("Toms's cat")
+#3.5
+# print(my_name + my_id)
 
-#print('hello world')
+3.6 
 
-#print('hello world'.upper())
-#print('hello world'.lower())
+print(my_name + my_id_str)
 
-#print('  hello world  ')
-#print('  hello world.  '.strip())
+3.7
+print(my_name*3)
 
-#print('hello world'.split())
-#print('hello, world'.split(','))
+3.8 
 
-#print('hello, world'.split('o'))
+print("hello world. this is my first python script.".split('.'))
 
-#print (2. ** 3)
+3.9 
 
-my_int = 123
-
-print(my_int)
-
-my_int = 321
-
-print(my_int)
-
-my_float = 123.
-
-my_str = 'hello world'
-
-print(my_float + 1)
-
-print(my_str.upper())
+message = "Tom's id is 123"
+print(message)
